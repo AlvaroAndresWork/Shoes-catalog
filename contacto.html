@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto | Premium Kicks</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body class="page page--centered">
+    
+    <header class="header">
+        <nav class="navbar">
+            <div class="navbar__brand">Premium Kicks</div>
+            <div class="navbar__menu">
+                <a href="index.html#nike" class="navbar__link">Nike</a>
+                <a href="index.html#adidas" class="navbar__link">Adidas</a>
+                <a href="index.html" class="btn btn--outline">Volver al Inicio</a>
+            </div>
+        </nav>
+    </header>
+
+    <main class="main-content main-content--contact">
+        <section class="lead-capture">
+            <h1 class="lead-capture__title">Únete a la lista de espera</h1>
+            <p class="lead-capture__subtitle">Recibe acceso anticipado a nuestros lanzamientos exclusivos.</p>
+            
+            <form class="form" action="https://formspree.io/f/TU_ID_AQUI" method="POST">
+                <div class="form__group">
+                    <input type="email" name="email" class="form__input" placeholder="tu@correo.com" required>
+                </div>
+                <button type="submit" class="btn btn--primary btn--full">Enviar</button>
+            </form>
+        </section>
+    </main>
+
+    <script>
+        window.chatbaseConfig = { chatbotId: "TU_ID_DE_CHATBASE" };
+    </script>
+    <script src="https://www.chatbase.co/embed.min.js" chatbotId="TU_ID_DE_CHATBASE" defer></script>
+</body>
+</html>

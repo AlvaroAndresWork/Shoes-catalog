@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Premium Kicks | Calzado Exclusivo</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body class="page">
+    
+    <header class="header">
+        <nav class="navbar">
+            <div class="navbar__brand">Premium Kicks</div>
+            <div class="navbar__menu">
+                <a href="#nike" class="navbar__link">Nike</a>
+                <a href="#adidas" class="navbar__link">Adidas</a>
+                <a href="contacto.html" class="btn btn--primary">Contacto</a>
+            </div>
+        </nav>
+    </header>
+
+    <main class="main-content">
+        <section id="nike" class="catalog">
+            <h2 class="catalog__title">Colección Nike</h2>
+            <div class="catalog__grid" id="grid-nike"></div>
+        </section>
+
+        <section id="adidas" class="catalog">
+            <h2 class="catalog__title">Colección Adidas</h2>
+            <div class="catalog__grid" id="grid-adidas"></div>
+        </section>
+    </main>
+
+    <script>
+        window.chatbaseConfig = {
+            chatbotId: "TU_ID_DE_CHATBASE",
+        };
+    </script>
+    <script
+        src="https://www.chatbase.co/embed.min.js"
+        chatbotId="TU_ID_DE_CHATBASE"
+        domain="www.chatbase.co"
+        defer>
+    </script>
+
+    <script type="module" src="main.js"></script>
+</body>
+</html>
